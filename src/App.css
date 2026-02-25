@@ -52,6 +52,10 @@ button:active {
     padding: 1rem;
   }
 
+  body {
+    color: white;
+  }
+
   h1 {
     font-size: 4vh;
   }
@@ -68,5 +72,6 @@ button:active {
   button {
     padding: 8px 12px;
     font-size: 1.5vh;
+    color: white;
   }
 }
