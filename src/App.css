@@ -46,3 +46,27 @@ button:focus {
 button:active {
   transform: scale(0.98);
 }
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 4vh;
+  }
+
+  p {
+    font-size: 2vh;
+  }
+
+  div {
+    padding: 40px;
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 1.5vh;
+  }
+}
