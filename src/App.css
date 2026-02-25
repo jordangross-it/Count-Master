@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("assets/backgroundImg.jpg");
+  color: white;
+}
+
+h1 {
+  font-size: 6vh;
+}
+
+p {
+  font-size: 3vh;
+}
+
+div {
+  background-color: rgb(11, 16, 11);
+  padding: 80px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  background: linear-gradient(180deg, rgb(124, 164, 50), rgba(43, 99, 41));
+  margin: 5px;
+  padding: 10px 16px;
+  font-size: 2vh;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
